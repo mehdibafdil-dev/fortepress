@@ -1,0 +1,57 @@
+{
+  "name": "fortepress",
+  "version": "1.0.0",
+  "description": "A robust Node.js boilerplate designed for building production-ready RESTful APIs. Utilizing Express and Sequelize ORM, it provides a solid foundation for developing scalable and maintainable applications. With built-in security features, session management, and comprehensive logging, FortePress ensures your API is secure and efficient. This boilerplate is perfect for developers looking to streamline their workflow and focus on building features rather than boilerplate code.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "lint": "eslint .",
+    "migrate": "sequelize-cli db:migrate",
+    "migrate:undo": "sequelize-cli db:migrate:undo"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "api",
+    "boilerplate",
+    "sequelize",
+    "orm",
+    "security",
+    "middleware",
+    "scalable",
+    "production-ready",
+    "logging",
+    "session-management",
+    "development",
+    "backend"
+  ],
+  "author": "Mehdi BAFDIL",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "connect-session-sequelize": "^7.1.4",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.2.0",
+    "fortepress": "file:",
+    "helmet": "^8.0.0",
+    "hpp": "^0.2.3",
+    "log4js": "^6.6.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.11.5",
+    "paseto": "^3.1.4",
+    "pretty-error": "^4.0.0",
+    "sequelize": "^6.24.0",
+    "underscore": "^1.13.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "sequelize-cli": "^6.5.1"
+  }
+}
