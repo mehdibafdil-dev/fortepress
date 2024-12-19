@@ -187,7 +187,3 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ## ⭐ Show your support
 
 Give a ⭐️ if this project helped you!
-
-## 📝 Note
-
-Make sure to properly configure your machine learning model and vectorizer files before deployment.
